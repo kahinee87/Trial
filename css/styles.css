@@ -1,0 +1,79 @@
+html, body {
+
+  height: 100%;
+  width: 100%;
+  margin:0
+}
+
+#mapContainer {
+
+  height: 100%;
+  width: 100%;
+  background: lightgrey;
+  margin-top: 15px;
+}
+
+#info-box {
+  width: 300px;
+  position: absolute;
+  padding: 15px;
+  top: 25px;
+  left: 0px;
+  z-index: 10;
+  background-color:#336699;
+  padding: 15px;
+  font-size: 1rem;
+  font-weight: lighter;
+  border-radius: 11px;
+  margin-bottom:5px;
+}
+
+#activity-box {
+  width: 300px;
+  position: absolute;
+  padding: 15px;
+  top: 25px;
+  right: 0px;
+  z-index: 10;
+  background-color:#336699;
+  padding: 15px;
+  font-size: 1rem;
+  font-weight: lighter;
+  border-radius: 11px;
+  margin-bottom:5px;
+}
+
+#legend-box {
+  width: 300px;
+  position: absolute;
+  padding: 15px;
+  right: 0px;
+  bottom: 0px;
+  z-index: 10;
+  background-color:#336699;
+  padding: 15px;
+  font-size: 1rem;
+  font-weight: lighter;
+  border-radius: 11px;
+  margin-bottom:5px;
+  float: left;
+}
+
+
+h3 {
+  margin: 0 0 15px 0;
+  font-size: 1.5rem;
+  font-family: sans-serif;
+}
+
+h2 {
+  margin: 0 0 15px 0;
+  font-size: 1rem;
+}
+
+button {
+  padding: 10px;
+  font-weight: 500;
+  border-radius: 5px;
+  align-content: center;
+}
